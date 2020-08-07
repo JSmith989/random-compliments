@@ -1,3 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-    background-color: rgb(83, 116, 112);
+  background-color: rgb(83, 116, 112);
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+}
+
+.sponge {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 8px;
+}
+
+.container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(226, 150, 120);
+  border-radius: 10px;
+}
+
+.compliment {
+  letter-spacing: 2px;
+  padding: 10px;
+  text-shadow: 1.5px 1.5px black;
+  color: white;
+}
+
+.awesome-button {
+  display: flex;
+  justify-content: center;
+}
+
+.awesome-ify {
+  border-radius: 8px;
+  padding: 5px;
+  font-size: 20px;
 }
