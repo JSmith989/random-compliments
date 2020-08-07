@@ -13,7 +13,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 8px;
 }
 
 .container {
@@ -22,6 +21,7 @@ body {
   justify-content: center;
   background-color: rgb(226, 150, 120);
   border-radius: 10px;
+
 }
 
 .compliment {
@@ -34,10 +34,13 @@ body {
 .awesome-button {
   display: flex;
   justify-content: center;
+  padding: 10px;
+  
 }
 
 .awesome-ify {
   border-radius: 8px;
   padding: 5px;
   font-size: 20px;
+  background-color: white;
 }
