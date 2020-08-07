@@ -34,6 +34,29 @@ const complimentArray = ["I would still hang out with you even if you haven’t 
     "I like having you around because my weirdness doesn’t look so weird when you’re doing it too."]
 
 
+
+    // if(document.getElementById('awesome-ify').clicked === true)
+    // {
+    //    alert("button was clicked");
+    // }
+
+
 const buildCompliment = () => {
-    let domString = 
+    let domString = '';
+    let randomCompliment = complimentArray[Math.floor(Math.random() * complimentArray.length)];
+
+    domString += `<h1 id="compliment"> ${randomCompliment} </h1>`;
+
+    printToDom('compliment', domString)
+    
 }
+
+const buttonEvents = () => {
+    document.querySelector('#awesome-ify').addEventListener('click', buildCompliment)
+}
+
+const init = () => {
+    buttonEvents();
+  }
+  
+  init();
